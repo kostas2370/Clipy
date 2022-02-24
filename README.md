@@ -1,4 +1,4 @@
-# Clippy
+# Clipy
 
 Clippy is a program to make twitch compilation videos automated
 
@@ -54,7 +54,11 @@ Basic fuctions :
   11.video(get_clips=True,title="default",amt=20,music=False,music_selection="default",game=False,intro=True,outro=True,serie="Random Compilation",api=False))
   
  
-  Because program is still in process , contact me in kostas2372@gmail.com
-  
  
   
+Also you will need to get a client id and client_secret_id from twitch and insert them in twitch_fuction files (line : 76 and line :89)
+You will need to add ffmpeg in your path
+Lastly , you will need to put Selenium path in twitch_funcs (line 26)
+
+
+  For questions,contact me in kostas2372@gmail.com

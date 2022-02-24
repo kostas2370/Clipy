@@ -25,7 +25,7 @@ Modules we will use :
   18. twitch
   19. Google
   20. undetected_chromedriver
-  
+  21. moviepy
   
 Programs you need installed :
 

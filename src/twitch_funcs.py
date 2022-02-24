@@ -23,7 +23,7 @@ def download_twitch(link="",game="",title="",creator=""):
 
     path_save=other.get_Destination(0)
 
-    s=Service("C:/Program Files (x86)/chromedriver.exe")
+    s=Service("<selenium_path>")
     
     driver = webdriver.Chrome(service=s)
     try:

@@ -73,7 +73,7 @@ def download_twitch(link="",game="",title="",creator=""):
 
 
 def get_game_ids(game_name):
-    client = twitch.TwitchHelix(client_id='6912jn6k27v3ntta63m6hmmikz0vgb', client_secret='7b162j8k9tsaetbjk5tbyt85i4wi9g', scopes=[twitch.constants.OAUTH_SCOPE_ANALYTICS_READ_EXTENSIONS])
+    client = twitch.TwitchHelix(client_id='<client_id>', client_secret='<client_secret>', scopes=[twitch.constants.OAUTH_SCOPE_ANALYTICS_READ_EXTENSIONS])
     client.get_oauth()
     game_id=client.get_games(names=game_name)
     x=game_id[0]["id"]
@@ -86,7 +86,7 @@ def get_clips(amt=10,game_name="",streamer_id=""):
     
     succesful=0
     now=datetime.date.today()
-    client = twitch.TwitchHelix(client_id='6912jn6k27v3ntta63m6hmmikz0vgb', client_secret='7b162j8k9tsaetbjk5tbyt85i4wi9g', scopes=[twitch.constants.OAUTH_SCOPE_ANALYTICS_READ_EXTENSIONS])
+    client = twitch.TwitchHelix(client_id='<client_id>', client_secret='<client_secret>', scopes=[twitch.constants.OAUTH_SCOPE_ANALYTICS_READ_EXTENSIONS])
     client.get_oauth()
     if game_name=="":
         print("you need to put game names")

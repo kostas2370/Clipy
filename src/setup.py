@@ -33,7 +33,7 @@ def mk_dirs(default):
                                 os.mkdir(default2+"used_clips")
                                 os.mkdir(default2+"music_clips")
                                 os.mkdir(default2+"prebuild_photos")
-                                os.mkdir("db")     
+                                     
                                 return default2
                 except:
                                 print("The files already exist !")

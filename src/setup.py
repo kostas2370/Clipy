@@ -19,10 +19,7 @@ def db_making(clips_destination,video_destination,clips_to_delete_destination,mu
                 conn.commit()
                 conn.close()
 def mk_dirs(default):
-               
-
-
-
+              
                 try:
                                 os.mkdir(default+"automation")
                                 default2=default+"automation/"

@@ -1,7 +1,7 @@
 # Clipy
 
 Clippy is a program to make twitch compilation videos automated
-
+First of all open the settings file and insert your cliend id(twitch) secret client id (twithc) and the location of your selenium exe file
 Modules you need to have downloaded :
 
 Modules we will use :
@@ -56,8 +56,7 @@ Basic fuctions :
  
  
 If you want to upload a video through youtube api you will need to place the json file from youtube api with the client ids you need in folder src/db.  
-Also you will need to get a client id and client_secret_id from twitch and insert them in twitch_fuction files (line : 76 and line :89)
-You will need to add ffmpeg in your path
+
 Lastly , you will need to put Selenium path in twitch_funcs (line 26)
 
 

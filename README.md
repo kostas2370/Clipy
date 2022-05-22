@@ -57,7 +57,7 @@ Basic fuctions :
  
 If you want to upload a video through youtube api you will need to place the json file from youtube api with the client ids you need in folder src/db.  
 
-Lastly , you will need to put Selenium path in twitch_funcs (line 26)
+
 
 
   For questions,contact me in kostas2372@gmail.com

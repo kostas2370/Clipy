@@ -1,5 +1,12 @@
 # Clipy
 
+game mode : https://youtu.be/dGtgDQZ7U_E
+
+
+
+
+
+
 Clippy is a program to make twitch compilation videos automated
 First of all open the settings file and insert your cliend id(twitch) secret client id (twithc) and the location of your selenium exe file
 Modules you need to have downloaded :
